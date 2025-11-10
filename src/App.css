@@ -1,0 +1,137 @@
+/* ======= GLOBAL ======= */
+body {
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+/* ======= MAIN CONTAINER ======= */
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= HEADINGS ======= */
+h1,
+h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* ======= LOGIN / REGISTER BOX ======= */
+.auth-box {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.auth-box h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+}
+
+.auth-box input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.auth-box .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+}
+
+/* ======= TODOS ======= */
+.todo-container {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  transition: all 0.15s ease;
+  border: 1px solid #e9ecef;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+/* ======= BUTTONS ======= */
+.btn {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-success {
+  background-color: #198754;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+/* ======= LOGOUT BUTTON ======= */
+.logout-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background: #bb2d3b;
+}
+
+/* ======= FORM ======= */
+form input {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
