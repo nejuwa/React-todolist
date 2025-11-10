@@ -1,6 +1,6 @@
 /* ======= GLOBAL ======= */
 body {
-  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  background: linear-gradient(50deg, #340255, #020330b2, #39015e);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   min-height: 100vh;
@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 600px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(211, 206, 206);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
