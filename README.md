@@ -1,21 +1,33 @@
-<<<<<<< HEAD
-# React + Vite
+# React + Vite TodoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **responsive Todo List** application built with **React** and **JavaScript**, featuring user authentication and password management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication:** Register and log in with email and password.
+- **Set Username:** Users can set a username after first login.
+- **Todo Management:** Add, mark as done, and delete todos.
+- **Password Reset:** 
+  - **Local Reset:** Directly reset password in localStorage.
+  - **Mock Email Flow:** Simulated email link to reset password.
+- **Responsive Design:** Works on desktop and mobile devices.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Functional Components & Hooks)
+- JavaScript
+- LocalStorage for data persistence
+- CSS & Bootstrap for styling
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React-todolist
-Responsive Todo List built with React and JavaScript – includes user login, todo management, and password reset features.
->>>>>>> 075101ca560543d12e165d618ccacdeaf42d5834
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<USERNAME>/react-todolist.git
+   cd react-todolist
+   npm install
+   npm start
+
+
+
+
